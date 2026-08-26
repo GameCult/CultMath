@@ -11,7 +11,7 @@
     <Version>0.1.2</Version>
     <Description>Clean-room C# math shaped for HLSL-style renderer code.</Description>
     <Authors>GameCult</Authors>
-    <RepositoryUrl>https://github.com/GameCult/CultMath</RepositoryUrl>
+    <RepositoryUrl>https://github.com/GameCult/CultLib</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <NoWarn>$(NoWarn);CS8981</NoWarn>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>

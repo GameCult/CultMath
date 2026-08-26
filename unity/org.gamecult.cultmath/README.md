@@ -22,7 +22,7 @@ DLL/PDB and stable Unity metadata, and stages an inspectable package under
 Consume the repository package with:
 
 ```json
-"org.gamecult.cultmath": "https://github.com/GameCult/CultMath.git?path=/unity/org.gamecult.cultmath"
+"org.gamecult.cultmath": "https://github.com/GameCult/CultLib.git?path=/packages/cultmath/unity/org.gamecult.cultmath#cultmath-unity-v0.1.2"
 ```
 
 Production consumers should pin that URL to a commit or release tag.

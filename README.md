@@ -1,4 +1,8 @@
-# CultMath
+# CultMath (archived)
+
+CultMath now lives in [`GameCult/CultLib`](https://github.com/GameCult/CultLib)
+under `packages/cultmath`. This repository preserves pre-monorepo history and
+release provenance; it is not the source or release authority.
 
 Clean-room math shaped for people who think in HLSL.
 
@@ -84,7 +88,7 @@ CultMath's Unity 2021.3 surface is the tracked precompiled package at
 tree and does not require a consumer `csc.rsp` workaround.
 
 ```json
-"org.gamecult.cultmath": "https://github.com/GameCult/CultMath.git?path=/unity/org.gamecult.cultmath"
+"org.gamecult.cultmath": "https://github.com/GameCult/CultLib.git?path=/packages/cultmath/unity/org.gamecult.cultmath#cultmath-unity-v0.1.2"
 ```
 
 The repository root is not a Unity package. Build the tracked package with
@@ -102,7 +106,7 @@ CultMath keeps portable DXC outside git under `.tools/`:
 .\tools\compile-hlsl-spirv.ps1 `
   -ShaderPath E:\Projects\Odin\crates\muninn-move-tracker\shaders\MoveSphereCandidate.comp.hlsl `
   -OutputPath E:\Projects\Odin\crates\muninn-move-tracker\artifacts\shader\MoveSphereCandidate.comp.spv `
-  -IncludePath E:\Projects\CultMath\shaders
+  -IncludePath E:\Projects\CultLib\packages\cultmath\shaders
 .\tools\compile-spirv-metal.ps1 `
   -SpirvPath E:\Projects\Odin\crates\muninn-move-tracker\artifacts\shader\MoveSphereCandidate.comp.spv `
   -OutputPath E:\Projects\Odin\crates\muninn-move-tracker\artifacts\shader\MoveSphereCandidate.comp.metal
